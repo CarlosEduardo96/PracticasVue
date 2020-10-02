@@ -1,0 +1,32 @@
+Argis Javascript
+
+
+Vista de mapas
+https://developers.arcgis.com/javascript/latest/sample-code/layers-mapimagelayer-dynamic-labels/index.html
+Listado de mapas:
+https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=widgets-basemapgallery
+
+https://developers.arcgis.com/sign-in/
+
+Sistemas de medicion
+https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=widgets-measurement-2d
+Inconos
+https://developers.arcgis.com/javascript/latest/guide/esri-icon-font/
+
+Librerias interesantes
+"esri/Map",
+"esri/views/MapView",
+"esri/widgets/AreaMeasurement2D",
+"esri/widgets/BasemapGallery",
+"esri/widgets/Expand",
+"esri/widgets/Bookmarks",
+"esri/widgets/ScaleBar",
+"esri/widgets/Home",
+"esri/widgets/Search",
+"esri/layers/GroupLayer",
+"esri/layers/FeatureLayer",
+"esri/widgets/LayerList",
+"esri/geometry/Extent",
+"esri/geometry/SpatialReference",
+"esri/widgets/Measurement",
+"esri/WebMap"
