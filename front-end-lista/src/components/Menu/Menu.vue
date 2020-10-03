@@ -14,7 +14,7 @@
 
     <v-tooltip bottom>
       <template v-slot:activator="{ on, attrs }">
-        <v-btn icon v-bind="attrs" v-on="on">            
+        <v-btn icon v-bind="attrs" v-on="on" to="/Graficas" @click="Titulo='Gestion de graficas'">         
             <v-icon>mdi-chart-pie</v-icon>
         </v-btn>
       </template>

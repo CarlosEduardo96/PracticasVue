@@ -17,7 +17,7 @@ mongoose.connect(url,opciones).then(()=>{
 
     //CREAR SERVIDOR Y ESCUCHAR PETICIONES HTTP
     app.listen(port, ()=> {
-        console.log("Servidor corriendo en http://localhost/"+port);
+        console.log("Servidor corriendo en http://localhost:"+port);
     });
 })
 .catch(error=>console.log(error))

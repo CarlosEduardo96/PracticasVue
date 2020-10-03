@@ -13,8 +13,13 @@ import 'vuetify-dialog/dist/vuetify-dialog.css'
 Vue.config.productionTip = false;
 
 //URL Api Rest
-Vue.prototype.$Api_Rest="http://localhost:3900/api";
-// Vue.use(VuetifyDialog);
+//Pruebas locales
+//Vue.prototype.$Api_Rest="http://localhost:3900/api";
+
+//Pruebas en red
+var host = window.location.protocol + "//" + window.location.hostname;
+Vue.prototype.$Api_Rest=host+":3900/api";
+
 //Configuracion de los dialog
 Vue.use(VuetifyDialog, {
   context: {
