@@ -5,7 +5,7 @@ Practicas usando el framework vue,aplicando sus herramientas, también conexione
 ```
 npm install
 ```
-# back-end-lista
+## back-end-lista
 
 ## Es importante intalar en el backend modemon para realizar pruebas locales
 ```
@@ -17,13 +17,13 @@ npm install --save nodemon
 npm start
 ```
 
-# front-end-lista
+## front-end-lista
 
 ### Inicia el servidor en front-end
 ```
 npm run serve
 ```
-# Back-end y Front-end
+## Back-end y Front-end
 
 ### Compiles and minifies for production
 ```
@@ -36,4 +36,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://cli.vuejs.org/config/)
