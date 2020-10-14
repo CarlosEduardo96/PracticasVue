@@ -7,6 +7,7 @@
         <v-col cols="12" md="9" v-if="personas">
             <GraficaBarra v-bind:Lista="personas" v-if="seleccion==='barra'"/>
             <GraficaDona  v-bind:Lista="personas" v-if="seleccion==='dona'"/>
+            <GraficaLineal v-bind:Lista="personas" v-if="seleccion==='lineal'"/>
         </v-col>
         <v-col cols="12" ms="12" md="9"  align-self="center" v-if="!personas">
            <div class="d-flex justify-center flex-column md-6 mx-10">
@@ -26,13 +27,15 @@
 import axios from 'axios'
 import Herramienta from './Herramienta'
 import GraficaBarra from './Barra'
-import GraficaDona from './Dona';
+import GraficaDona from './Dona'; 
+import GraficaLineal from './Lineal'
 export default {
     name:"Panel",
     components: {
         Herramienta,
         GraficaBarra,
-        GraficaDona
+        GraficaDona,
+        GraficaLineal
     },
     data(){
         return{

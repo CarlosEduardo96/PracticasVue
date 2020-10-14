@@ -29,8 +29,8 @@ export default {
             lista:
             [
                 {title:"Estadisticas Sexos",value:"dona", icon:"mdi-chart-pie"},
-                {title:"Estadisticas de Edades",value:"barra", icon:"mdi-chart-bar"},
-                {title:"Grafica lineal",value:"lineal", icon:"mdi-chart-line"}
+                {title:"Estadisticas Edades",value:"barra", icon:"mdi-chart-bar"},
+                {title:"Reathing",value:"lineal", icon:"mdi-chart-line"}
             ]
         }
     },

@@ -11,7 +11,7 @@ var PersonaSchema=Schema({
     sexo: String,
     edad: {type: Number, default: 0},
     archivo: {type: String, default:"Sin imagen"},
-    data:{ type: Date, default: Date.now()}
+    date:{ type: Date, default: Date.now()}
 });
 
 //Guarda el documento en la base de datos de mongoose

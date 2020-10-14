@@ -10,6 +10,9 @@ import vuetify from './plugins/vuetify';
 import VuetifyDialog from 'vuetify-dialog'
 import 'vuetify-dialog/dist/vuetify-dialog.css'
 
+//Libreria moment
+import Moment from 'moment'
+
 Vue.config.productionTip = false;
 
 //URL Api Rest
@@ -19,6 +22,10 @@ Vue.config.productionTip = false;
 //Pruebas en red
 var host = window.location.protocol + "//" + window.location.hostname;
 Vue.prototype.$Api_Rest=host+":3900/api";
+
+//Global moment
+Moment.locale('es');
+Vue.prototype.$moment=Moment;
 
 //Configuracion de los dialog
 Vue.use(VuetifyDialog, {

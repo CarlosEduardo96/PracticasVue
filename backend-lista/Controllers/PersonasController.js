@@ -160,7 +160,7 @@ var controller={
         var validate_apellidos=!validator.isEmpty(params.apellidos);
         var validate_sexo=!validator.isEmpty(params.sexo);
         var validate_edad=!validator.isEmpty(params.edad);
-        var validate_archivo=!validator.isEmpty(params.archivo);
+        //var validate_archivo=!validator.isEmpty(params.archivo);
     } catch (error) {
         return res.status(500).send({
             estado:500,

@@ -79,7 +79,7 @@ export default {
                 nombre:this.Nombre,
                 apellidos:this.Apellido,
                 sexo: this.Sexo,
-                edad: this.Edad           
+                edad: this.Edad      
             }            
             
             this.sendData(form);
