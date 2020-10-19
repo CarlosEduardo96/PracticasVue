@@ -43,10 +43,11 @@ export default {
                 data.push(0);
                 meses.find(elemento=>{
                     if(elemento.mes===i){
-                        data[i-1]=elemento.total;
+                        data[i]=elemento.total;
                         history+=1;
                     }
                 }, i, history);
+
                 if(history===meses.length){
                     break;
                 }                

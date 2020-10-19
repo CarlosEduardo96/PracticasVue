@@ -1,7 +1,7 @@
 <template>
 <v-app-bar color="info" dark max-height="60">
     <v-toolbar-title>{{Titulo}}</v-toolbar-title>
-    <v-spacer/> 
+    <v-spacer/>
 
     <v-tooltip bottom>
       <template v-slot:activator="{ on, attrs }" >
@@ -36,7 +36,8 @@ export default {
     name: "Menu",
     data(){
         return {
-            Titulo:this.$route.name
+            Titulo:this.$route.name,
+            drawer:true
         }
     }
 }

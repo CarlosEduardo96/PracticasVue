@@ -1,5 +1,4 @@
-<template>
-    
+<template>    
     <v-data-table :headers="Header" :items="datos" height="400"> 
         <template v-slot:top>
             <v-toolbar flat>
@@ -26,8 +25,7 @@
                 <span>Eliminar</span>
             </v-tooltip>
         </template>
-    </v-data-table>
-    
+    </v-data-table>    
 </template>
 <script>
 import axios from 'axios';
